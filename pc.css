@@ -1,0 +1,681 @@
+
+/*  PC Css file */
+
+
+* 
+{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-moz-selection
+{ 
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+}
+
+::selection 
+{
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar 
+{
+    width: 0px;
+}
+
+.hh 
+{
+    width: 100%;
+    height: 50px;
+}
+
+.header-home
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0;
+    background-color: white;
+    border-bottom: 1px solid grey;
+}
+
+.school-name 
+{
+    font-size: 20px;
+    color: grey;
+    font-weight: 600;
+}
+
+.social-media
+{
+    width: auto;
+    height: 50px;
+    display: none;
+}
+
+.aaa
+{
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.facebook
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 27px;
+}
+
+.facebook:hover 
+{
+    background-color: white;
+    border: 1px solid blue;
+    transition: 0.5s;
+}
+
+.instagram
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 27px;
+}
+
+.instagram:hover 
+{
+    background-color: white;
+    border: 1px solid pink;
+    transition: 0.5s;
+}
+
+.menu-link-pc
+{
+    display: none;
+    position: absolute;
+    left: 42%;
+    width: auto;
+    height: 50px;
+}
+
+.menu-link-pc a 
+{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-link-pc a:hover 
+{
+    border-bottom: 2px solid black;
+}
+
+.main-home
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.start-articol 
+{
+    width: 100%;
+    height: auto;
+    background-color: rgb(214, 222, 236);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding: 10px 0 10px;
+}
+
+.i-articol
+{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-art
+{
+    margin-bottom: 10px;
+    width: 90%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.i-art 
+{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.new-z
+{
+    width: 100%;
+    height: auto;
+}
+
+.n
+{
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    font-size: small;
+}
+
+.tt 
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    gap: 10px;
+}
+
+.txt 
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.btn-z-art 
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.more 
+{
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(108, 108, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    margin: 20px 0 0;
+}
+
+.more:hover
+{
+    background-color: rgb(100, 100, 240);
+}
+
+.motivation 
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(124, 124, 124);
+    font-weight: 500px;
+    text-align: center;
+}
+
+.post-z
+{
+    margin-top: 20px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 20px;   
+}
+
+.post 
+{
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img-p 
+{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(192, 192, 192);
+    border-radius: 5px;
+}
+
+.t-p 
+{
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+.txt-p 
+{
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+}
+
+.link-p
+{
+    width: 100%;
+    height: auto;
+    color: blue;
+    text-decoration: none;
+}
+
+.link-p:hover 
+{
+    text-decoration: underline;
+}
+
+
+.bottom 
+{
+    margin-top: 40px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.bot 
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.bot-1 
+{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.t-bt 
+{
+    font-size: 18px;
+}
+
+.link-bot 
+{
+    text-decoration: none;
+    color: black;
+}
+
+.link-bot:hover
+{
+    text-decoration: underline;
+}
+
+.mop 
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.menu-open-pc 
+{
+    position: fixed;
+    top: 49px;
+    width: 90%;
+    max-width: 500px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid grey;
+    border-bottom: 3px solid black;
+}
+
+.aa
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu-open-pc main 
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+}
+.menu-open-pc main a 
+{
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+.menu-open-pc main a:hover 
+{
+    border-bottom: 2px solid black;
+}
+
+
+.btns-p
+{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    padding: 0 5px 0;
+    display: block;
+}
+
+.aaaa
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px 0;
+}
+
+.aaaa button 
+{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.menu-open 
+{
+    position: fixed;
+    left: 20px;
+    top: 70px;
+    width: 200px;
+    height: auto;
+    min-height: 200px;
+    padding-bottom: 10px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.menu-open header 
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-open header button 
+{
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.menu-open header .menu-t 
+{
+    position: absolute;
+    left: 10px;
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 18px;
+}
+
+.menu-open main 
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-top: 10px;
+    padding-left: 10px;
+    flex-direction: column;
+    gap: 15px;
+}
+.menu-open main a 
+{
+    text-decoration: none;
+}
+
+.menu-open main .line 
+{
+    width: 80%;
+    height: 1px;
+    background-color: grey;
+}
+
+
+.close 
+{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}
+
+.warnnig 
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.t-w 
+{
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 500px;
+    color: rgb(197, 52, 52);
+}
+
+.t-w  ion-icon
+{
+    color:red;
+    font-size: 27px;
+}
+
+.header-ww
+{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0;
+}
+
+.main-w 
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 10px;
+}
+
+.close-w 
+{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(238, 145, 145);
+    border:1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px
+}
+
+/* Phone Css file */
+
+
+@supports (display: flex) {
+    @media screen and (min-width: 600px) {
+        
+       .menu-link-pc
+       {
+        display: block;
+       }
+
+        .header-home 
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .social-media
+        {
+            display: block;
+        }
+
+        .btns-p 
+        {
+            display: none;
+        }
+
+        .start-articol
+        {
+            flex-direction: row;
+            padding: 10px;
+        }
+
+        .img-art 
+        {
+            width: 30%;
+            height: 100%;
+            border-radius: 10px;
+        }
+
+        .i-articol 
+        {
+            width: 50%;
+            height: 100%;
+        }
+
+        .bot 
+        {
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+    }
+}

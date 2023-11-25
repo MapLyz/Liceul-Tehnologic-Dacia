@@ -195,11 +195,13 @@
 {
     width: 100px;
     height: auto;
-    border-radius: 5px;
-    background-color: orange;
+    background-color: rgb(211, 137, 205);
     color: white;
     padding: 5px;
     font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 
 .tt 
@@ -221,6 +223,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    padding-bottom: 10px;
 }
 
 .btn-z-art 
@@ -237,17 +240,20 @@
     width: 200px;
     height: auto;
     padding: 10px;
-    background-color: rgb(108, 108, 255);
-    border: none;
+    background-color: transparent;
+    border: 1px solid black;
     cursor: pointer;
-    border-radius: 5px;
-    color: white;
+    color: black;
     margin: 20px 0 0;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .more:hover
 {
-    background-color: rgb(100, 100, 240);
+    border-bottom: 3px solid black;
 }
 
 .motivation 
@@ -332,7 +338,7 @@
     margin-top: 40px;
     width: 100%;
     height: 200px;
-    background-color: rgb(216, 216, 216);
+    background-color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -532,6 +538,7 @@
 .menu-open main a 
 {
     text-decoration: none;
+    color: black;
 }
 
 .menu-open main .line 
@@ -678,4 +685,127 @@
         }
 
     }
+}
+
+
+
+/* Art style */
+
+
+.art-main
+{
+    max-width: 700px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.nav-links
+{
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    color: grey;
+}
+
+.nlc 
+{
+    width: auto;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:rgb(161, 161, 207);
+}
+
+
+.artm-img
+{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+#img-a 
+{
+    color: black;
+}
+
+.title-art 
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.data-art
+{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 15px;
+    color: grey;
+}
+
+.line-art 
+{
+    width: 100%;
+    height: 2px ;
+    background-color: grey;
+}
+
+.nloa 
+{
+    width:auto;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: whitesmoke;
+    border-left: 3px solid grey;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nloa .t 
+{
+    margin-bottom: 10px;
+}
+
+.nloa a 
+{
+    color: rgb(161, 161, 207);
+    text-decoration: none;
+}
+
+.rl-c 
+{
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+
+.til
+{
+    font-size: 20px;
+    font-weight: 600px;
 }

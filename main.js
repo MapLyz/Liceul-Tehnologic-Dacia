@@ -23,7 +23,9 @@ even.addEventListener('click', function(event) {
   event.stopPropagation();
   menupc.style.display = 'block';
   linkContainer.innerHTML = `
-    Nici un eveniment momentan
+  <a href="">Activitati</a>
+  <a href="">Evenimente</a>
+  <a href="">Proiecte</a>
   `;
 });
 
